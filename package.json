@@ -6,13 +6,19 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "Haraka": "^2.8.21",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
+    "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "http-errors": "~1.6.2",
     "jade": "^1.11.0",
     "morgan": "~1.9.0",
+    "nodemailer": "^4.6.8",
     "nodemon": "^1.18.4",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "smtp-server": "^3.4.7",
+    "xoauth2": "^1.2.0"
   }
 }
